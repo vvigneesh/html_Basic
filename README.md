@@ -1,1 +1,1 @@
-# This project is about the assignment on html basics
+# This assignment is on html basics
