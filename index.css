@@ -5,17 +5,20 @@ body{
 
 *{
     box-sizing: border-box;
-}
+ }
 .container{
-    border: 5px solid purple;
-    border-radius: 0.5em;
-    padding: 10px;
+    /*border: 5px solid purple;
+    border-radius: 0.5em;*/
+    padding: 7px;
     display: flex;
-}
+    background-color: #eeeeee;
+ }
 .item{
     width: 100px;
     height: 45px;
     padding: 10px;
-    background-color: powderblue;
-    border: 0.05px solid purple;
+    background-color: #eeeeee;
+    /*border: 0.05px solid purple;*/
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #000000;
 }
