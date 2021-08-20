@@ -26,7 +26,14 @@ body{
     text-decoration: none;
     /*text-shadow: 1px 1px 0px #000000;
 }*/
-
+table{
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 46px;
+    z-index: 100;
+}
 th {
     /*position: fixed;*/
     padding: 7px 30px 10px 10px;
@@ -37,7 +44,9 @@ th {
     color: black;*/
     /*border-bottom: 2px solid #111111;
     border-top: 1px solid #999;*/
-    text-align: right;}
+    text-align: right;
+    /*position: fixed;*/
+}
 
     
 #item1{
@@ -52,5 +61,8 @@ th {
   border-radius: 40px;
   text-align: center;
   color: white;
+  position: relative;
+  
+  left: 1000px;
   
 }
