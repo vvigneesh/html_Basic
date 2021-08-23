@@ -29,8 +29,7 @@ body{
 .header-table{
     position:fixed;
     top: 0;
-    right: 
-0;
+    right: 0;
     left: 0;
     height: 46px;
     z-index: 100;
@@ -56,16 +55,26 @@ body{
 }
 
 .oval{
-    width: 60px;
+  width: 60px;
+  height: 25px;
+  background: skyblue;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+  position: relative;
+  
+  left: 350px;
+  
+}
+.followButton{
+     width: 60px;
   height: 25px;
   background: skyblue;
   border-radius: 40px;
   text-align: center;
   color: white;
   position: relative;
-  
-  left: 1000px;
-  
+  left: 50px;
 }
 .wrapper{
     max-width: 1190px;
@@ -79,6 +88,7 @@ body{
     z-index: 20;
     margin: 5px;
     float: left;
+    
     /*float: left;*/
 }
 .content-center{
@@ -95,9 +105,43 @@ width: 300px;
 float: left;
 margin: 10px;}
 
-.tweet{
-    background-color: white;
+.tweets{
+    /*background-color: white;*/
+    border-bottom: 1px solid #e6ecf0;
 }
-.content-right{
+.tweets, #profilepic, #follow2, #follow4{
+    display: flex;
+    align-items: center;
+  
+}
+.tweets img{
+   /*margin-left: -50px;*/
+  position: relative;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+#profilepic img{
+    position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+#tweet_1{
+    border-radius: 50%;
+}
+#follow1{
     font-size: 200%;
+}
+#follow2, #follow4{
+    font-size: 100%;
+}
+#follow2 img, #follow4 img{
+    position: relative;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
