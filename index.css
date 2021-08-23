@@ -73,20 +73,28 @@ body{
     background-color: white;
     float: left;
 }
-.item2{
+.content-left{
     width: 90px;
     position: relative;
     z-index: 20;
     margin: 5px;
-    
+    float: left;
     /*float: left;*/
 }
 .content-center{
-    display: flex;
+    /*display: flex;*/
     float: left;
-    clear: right;
+    width: 300px;
     
 }
 .statstable{
     padding: 10px ;
+}
+.content-left, .content-center, .content-right {
+width: 300px;
+float: left;
+margin: 10px;}
+
+.tweet{
+    background-color: white;
 }
